@@ -1,3 +1,7 @@
+column TABLESPACE_NAME format A15
+column OBJECT_NAME format A35
+column TABLE_NAME format A35
+
 DEFINE schema_name = 'FKH'
 
 SELECT * FROM (
